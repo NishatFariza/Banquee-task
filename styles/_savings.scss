@@ -1,0 +1,65 @@
+.savings-area {
+  padding: 10rem 0;
+  &__subtitle {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  &__title {
+    @include font-dm-sans(4rem, 1.1em);
+    margin: 1rem 0;
+  }
+
+  &__desc {
+    font-size: 1.25rem;
+  }
+
+  &__items {
+    margin-top: 4rem;
+  }
+  &__item {
+  }
+  &__item-wrapper {
+    background-color: $primary_lite_color;
+    height: 13.375rem;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--1 {
+      background-color: #e8f2ee;
+    }
+
+    &--2 {
+      background-color: #f1dfdf;
+    }
+
+    &--3 {
+      background-color: #dfe1f1;
+    }
+
+    &--4 {
+      background-color: #dfebf1;
+    }
+
+    &--5 {
+      background-color: #f8f8f8;
+    }
+  }
+  &__item-icon {
+  }
+  &__item-title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+    font-weight: normal;
+    line-height: 1.2em;
+  }
+  &__item-price {
+    color: $text_mutated_color;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+}

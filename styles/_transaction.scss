@@ -1,0 +1,40 @@
+.transaction-area {
+  background-color: $primary_lite_color;
+  padding: 4rem 0;
+  overflow: hidden;
+
+  &__title {
+    @include font-dm-sans(4rem, 1.1em);
+    margin-bottom: 0;
+  }
+
+  &__desc {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+  }
+
+  //   Points
+  &__points {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  &__point {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__point-label {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+
+  // Right Column
+  &__transactions {
+    margin-bottom: -10rem;
+  }
+}

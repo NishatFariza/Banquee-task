@@ -1,0 +1,115 @@
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+@for $i from 2 to 13 {
+  .grid--col-#{$i} {
+    display: grid;
+    grid-template-columns: repeat($i, 1fr);
+  }
+}
+
+@for $i from 1 to 13 {
+  .grid__gap-#{$i} {
+    gap: #{$i}rem;
+  }
+}
+
+.grid__col {
+  &--1 {
+    grid-column: span 1;
+  }
+  &--2 {
+    grid-column: span 2;
+  }
+  &--3 {
+    grid-column: span 3;
+  }
+  &--4 {
+    grid-column: span 4;
+  }
+  &--5 {
+    grid-column: span 5;
+  }
+  &--6 {
+    grid-column: span 6;
+  }
+  &--7 {
+    grid-column: span 7;
+  }
+  &--8 {
+    grid-column: span 8;
+  }
+  &--9 {
+    grid-column: span 9;
+  }
+  &--10 {
+    grid-column: span 10;
+  }
+  &--11 {
+    grid-column: span 11;
+  }
+  &--12 {
+    grid-column: span 12;
+  }
+
+  @media all and (max-width: 768px) {
+    grid-column: 1 / -1;
+  }
+}
+
+// Flexbox
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+@mixin font-dm-sans($size, $height: 1.5) {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: $size;
+  line-height: $height;
+}

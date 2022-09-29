@@ -1,0 +1,60 @@
+// flex items-center gap--1
+
+.hero-area {
+  &__content {
+  }
+  &__title {
+    font-size: 6.25rem;
+    line-height: 1.1em;
+    margin: 1rem 0;
+  }
+
+  &__description {
+    font-size: 1.5rem;
+  }
+
+  //   Points
+  &__points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  &__point {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__point-icon {
+  }
+
+  &__point-description {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  &__cta-buttons {
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__cta-button {
+    font-size: 1rem;
+
+    border-radius: 6px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: $primary_color;
+    // font-size: 1.125rem;
+    @include font-dm-sans(1.125rem, 1.4em);
+    &--primary {
+      background-color: $primary_color;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.app-area {
+  padding: 10rem 0;
+
+  &__title {
+    @include font-dm-sans(5rem, 1.1em);
+    margin: 1rem 0;
+  }
+
+  &__mobile {
+    text-align: center;
+    max-width: 23.75rem;
+  }
+
+  //   boxes
+  &__boxes {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  &__box {
+    border: 2px solid #e8e8e8;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  &__box-title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__box-desc {
+    margin: 0;
+    @include font-dm-sans(1rem);
+  }
+}

@@ -1,0 +1,45 @@
+.integration-area {
+  margin: 10rem 0;
+  &__logos {
+  }
+  &__logos-row {
+  }
+
+  // Contents
+  &__contents {
+    margin-top: 4rem;
+    align-items: flex-end;
+  }
+
+  &__title {
+    @include font-dm-sans(4rem, 1.1em);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    @include font-dm-sans(1.125rem);
+    margin: 0;
+  }
+
+  &__desc {
+    line-height: 1.8em;
+  }
+
+  &__points {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  &__point {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__point-label {
+    font-size: 1.125rem;
+    margin: 0;
+  }
+}

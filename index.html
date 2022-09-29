@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banquee</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <div class="navbar wrapper">
+      <a class="navbar__logo">banquee.</a>
+      <nav class="navbar__items">
+        <a class="navbar__item" href="#">Features</a>
+        <a class="navbar__item" href="#">Compare</a>
+        <a class="navbar__item" href="#">Support</a>
+        <a class="navbar__item" href="#">Blog</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a class="navbar__action-button" href="#">Login</a>
+        <a
+          class="navbar__action-button navbar__action-button--primary"
+          href="#"
+        >
+          Open Account
+        </a>
+      </div>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- Hero Area start -->
+    <div class="hero-area grid wrapper items-center min-h-screen">
+      <div class="grid__col--6 hero-area__content">
+        <h1 class="hero-area__title">Banking starts here.</h1>
+        <p class="hero-area__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore.
+        </p>
+
+        <div class="hero-area__points">
+          <!-- point start -->
+          <div class="hero-area__point">
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="26" height="26" rx="13" fill="#E8F2EE" />
+              <path
+                d="M11.5001 15.3791L18.3941 8.48438L19.4553 9.54488L11.5001 17.5001L6.72705 12.7271L7.78755 11.6666L11.5001 15.3791Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+            <p class="hero-area__point-description">Instant Transfer</p>
+          </div>
+          <!-- point end -->
+
+          <!-- point start -->
+          <div class="hero-area__point">
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="26" height="26" rx="13" fill="#E8F2EE" />
+              <path
+                d="M11.5001 15.3791L18.3941 8.48438L19.4553 9.54488L11.5001 17.5001L6.72705 12.7271L7.78755 11.6666L11.5001 15.3791Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+            <p class="hero-area__point-description">Payments worldwide</p>
+          </div>
+          <!-- point end -->
+
+          <!-- point start -->
+          <div class="hero-area__point">
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="26" height="26" rx="13" fill="#E8F2EE" />
+              <path
+                d="M11.5001 15.3791L18.3941 8.48438L19.4553 9.54488L11.5001 17.5001L6.72705 12.7271L7.78755 11.6666L11.5001 15.3791Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+            <p class="hero-area__point-description">Saving accounts</p>
+          </div>
+          <!-- point end -->
+
+          <!-- point start -->
+          <div class="hero-area__point">
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="26" height="26" rx="13" fill="#E8F2EE" />
+              <path
+                d="M11.5001 15.3791L18.3941 8.48438L19.4553 9.54488L11.5001 17.5001L6.72705 12.7271L7.78755 11.6666L11.5001 15.3791Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+            <p class="hero-area__point-description">100% mobile banking</p>
+          </div>
+          <!-- point end -->
+        </div>
+
+        <div class="hero-area__cta-buttons">
+          <button class="hero-area__cta-button hero-area__cta-button--primary">
+            Open Account
+          </button>
+          <button class="hero-area__cta-button">
+            <span>Compare Cards</span>
+            <svg
+              width="18"
+              height="16"
+              viewBox="0 0 18 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.2284 6.86928L7.79189 1.54873L9.225 0.146185L17.1081 7.86118L9.225 15.5762L7.79189 14.1736L13.2284 8.85308H0.891891L0.891891 6.86928H13.2284Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid__col--6 hero-area__cards text-center">
+        <img src="./images/cards.png" alt="cards" />
+      </div>
+    </div>
+    <!-- Hero Area end -->
+
+    <!-- App Section start -->
+    <div class="app-area wrapper grid items-center">
+      <div class="grid__col--6">
+        <h1 class="app-area__title">One app. One banking.</h1>
+
+        <div class="app-area__boxes">
+          <div class="app-area__box">
+            <svg
+              class="app-area__box-icon"
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M26.1667 22.2236H35.5L23.8333 39.7236V29.2236H15.6667L26.1667 11.7236V22.2236ZM23.8333 24.557V20.147L19.7873 26.8903H26.1667V32.0166L31.1402 24.557H23.8333Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+          <div class="app-area__box">
+            <svg
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M22.6667 35.0565H18V37.3898H15.6667V35.0565H14.5C14.1906 35.0565 13.8938 34.9336 13.675 34.7148C13.4562 34.496 13.3333 34.1993 13.3333 33.8898V16.3898C13.3333 16.0804 13.4562 15.7837 13.675 15.5649C13.8938 15.3461 14.1906 15.2232 14.5 15.2232H22.6667V13.5782C22.6667 13.4935 22.6852 13.4099 22.7208 13.333C22.7564 13.2562 22.8083 13.1881 22.873 13.1333C22.9376 13.0786 23.0133 13.0386 23.0949 13.0161C23.1766 12.9936 23.2621 12.9891 23.3457 13.003L35.6913 15.061C35.9637 15.1063 36.2113 15.2468 36.3899 15.4574C36.5685 15.668 36.6665 15.9352 36.6667 16.2113V18.7232H37.8333V21.0565H36.6667V29.2232H37.8333V31.5565H36.6667V34.0683C36.6665 34.3445 36.5685 34.6117 36.3899 34.8223C36.2113 35.0329 35.9637 35.1734 35.6913 35.2187L34.3333 35.445V37.3898H32V35.8347L23.3457 37.2767C23.2621 37.2906 23.1766 37.2861 23.0949 37.2636C23.0133 37.2411 22.9376 37.2011 22.873 37.1464C22.8083 37.0916 22.7564 37.0235 22.7208 36.9467C22.6852 36.8698 22.6667 36.7862 22.6667 36.7015V35.0565ZM25 34.6365L34.3333 33.0802V17.1995L25 15.6443V34.6353V34.6365ZM30.25 28.0565C29.284 28.0565 28.5 26.7499 28.5 25.1398C28.5 23.5299 29.284 22.2232 30.25 22.2232C31.216 22.2232 32 23.5299 32 25.1398C32 26.7499 31.216 28.0565 30.25 28.0565Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+          <div class="app-area__box">
+            <svg
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M19.1667 16.3905V35.0571H30.8333V16.3905H19.1667ZM18 14.0571H32C32.3094 14.0571 32.6062 14.18 32.825 14.3988C33.0438 14.6176 33.1667 14.9144 33.1667 15.2238V36.2238C33.1667 36.5332 33.0438 36.83 32.825 37.0488C32.6062 37.2675 32.3094 37.3905 32 37.3905H18C17.6906 37.3905 17.3938 37.2675 17.175 37.0488C16.9563 36.83 16.8333 36.5332 16.8333 36.2238V15.2238C16.8333 14.9144 16.9563 14.6176 17.175 14.3988C17.3938 14.18 17.6906 14.0571 18 14.0571ZM25 31.5571C25.3094 31.5571 25.6062 31.68 25.825 31.8988C26.0438 32.1176 26.1667 32.4144 26.1667 32.7238C26.1667 33.0332 26.0438 33.33 25.825 33.5488C25.6062 33.7675 25.3094 33.8905 25 33.8905C24.6906 33.8905 24.3938 33.7675 24.175 33.5488C23.9563 33.33 23.8333 33.0332 23.8333 32.7238C23.8333 32.4144 23.9563 32.1176 24.175 31.8988C24.3938 31.68 24.6906 31.5571 25 31.5571V31.5571Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+          <div class="app-area__box">
+            <svg
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M16.8333 15.2236V33.8903H35.5V36.2236H14.5V15.2236H16.8333ZM34.6752 19.0655L36.3248 20.7151L29.6667 27.3733L26.1667 23.8745L21.1582 28.8818L19.5085 27.2321L26.1667 20.574L29.6667 24.0728L34.6752 19.0655V19.0655Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+          <div class="app-area__box">
+            <svg
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M14.5 15.2236H35.5C35.8094 15.2236 36.1062 15.3465 36.325 15.5653C36.5438 15.7841 36.6667 16.0809 36.6667 16.3903V35.057C36.6667 35.3664 36.5438 35.6631 36.325 35.8819C36.1062 36.1007 35.8094 36.2236 35.5 36.2236H14.5C14.1906 36.2236 13.8938 36.1007 13.675 35.8819C13.4563 35.6631 13.3333 35.3664 13.3333 35.057V16.3903C13.3333 16.0809 13.4563 15.7841 13.675 15.5653C13.8938 15.3465 14.1906 15.2236 14.5 15.2236ZM34.3333 25.7236H15.6667V33.8903H34.3333V25.7236ZM34.3333 21.057V17.557H15.6667V21.057H34.3333Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+          <div class="app-area__box">
+            <svg
+              width="50"
+              height="51"
+              viewBox="0 0 50 51"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                y="0.723633"
+                width="50"
+                height="50"
+                rx="25"
+                fill="#E8F2EE"
+              />
+              <path
+                d="M11.805 19.8868C15.5373 16.8632 20.1966 15.2165 25 15.2237C29.9992 15.2237 34.59 16.9702 38.195 19.8868L36.7297 21.7022C33.4119 19.0142 29.2699 17.5505 25 17.557C20.5562 17.557 16.4763 19.1087 13.2703 21.7022L11.805 19.8868ZM15.4695 24.4252C18.1652 22.2412 21.5306 21.0518 25 21.057C28.4692 21.0518 31.8344 22.2407 34.5305 24.424L33.064 26.2393C30.783 24.3917 27.9354 23.3857 25 23.3903C21.9457 23.3903 19.1398 24.4578 16.936 26.2393L15.4695 24.424V24.4252ZM19.1352 28.9635C20.794 27.6194 22.865 26.8873 25 26.8903C27.2213 26.8903 29.2618 27.6662 30.8648 28.9623L29.3983 30.7777C28.1542 29.7699 26.6011 29.2212 25 29.2237C23.334 29.2237 21.8033 29.8058 20.6017 30.7777L19.1352 28.9623V28.9635ZM22.8008 33.5018C23.4227 32.9975 24.1993 32.7227 25 32.7237C25.833 32.7237 26.5983 33.0153 27.1992 33.5007L25 36.2237L22.8008 33.5007V33.5018Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+
+            <h5 class="app-area__box-title">
+              Instant <br />
+              transactions
+            </h5>
+            <p class="app-area__box-desc">
+              Odio euismod lacinia at quis. Amet purus gravida quis blandit
+              turpis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid__col--6 text-center app-area__mobile m-auto">
+        <img src="./images/app.jpg" alt="App" />
+      </div>
+    </div>
+    <!-- App Section end -->
+
+    <!-- Transaction Section start -->
+    <div class="transaction-area">
+      <div class="wrapper grid items-center">
+        <div class="transaction-area__left-col grid__col--6">
+          <h2 class="transaction-area__title">
+            Send & receive money instantly
+          </h2>
+          <p class="transaction-area__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et.
+          </p>
+
+          <div class="transaction-area__points">
+            <div class="transaction-area__point">
+              <svg
+                class="transaction-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.723633"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#5BB5A2"
+                />
+                <path
+                  d="M11.5 16.1028L18.394 9.20801L19.4553 10.2685L11.5 18.2238L6.72701 13.4508L7.78751 12.3903L11.5 16.1028Z"
+                  fill="white"
+                />
+              </svg>
+              <p class="transaction-area__point-label">Malesuada Ipsum</p>
+            </div>
+            <div class="transaction-area__point">
+              <svg
+                class="transaction-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.723633"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#5BB5A2"
+                />
+                <path
+                  d="M11.5 16.1028L18.394 9.20801L19.4553 10.2685L11.5 18.2238L6.72701 13.4508L7.78751 12.3903L11.5 16.1028Z"
+                  fill="white"
+                />
+              </svg>
+              <p class="transaction-area__point-label">Vestibulum</p>
+            </div>
+            <div class="transaction-area__point">
+              <svg
+                class="transaction-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.723633"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#5BB5A2"
+                />
+                <path
+                  d="M11.5 16.1028L18.394 9.20801L19.4553 10.2685L11.5 18.2238L6.72701 13.4508L7.78751 12.3903L11.5 16.1028Z"
+                  fill="white"
+                />
+              </svg>
+              <p class="transaction-area__point-label">Parturient Lorem</p>
+            </div>
+          </div>
+        </div>
+        <div class="transaction-area__right-col grid__col--6">
+          <div class="transaction-area__transactions text-center">
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+            <img
+              class="transaction-area__transaction"
+              src="./images/transaction.png"
+              alt="transaltion"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Transaction Section end -->
+
+    <!-- Savings section start -->
+    <div class="savings-area">
+      <div class="wrapper">
+        <p class="savings-area__subtitle">Saving Accounts</p>
+        <h3 class="savings-area__title">
+          Organize your <br />
+          money the right way
+        </h3>
+        <div class="flex justify-between">
+          <p class="savings-area__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <br />
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <a href="#" class="flex items-center grid__gap-1">
+            <p>All Features</p>
+            <svg
+              width="18"
+              height="16"
+              viewBox="0 0 18 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.2284 6.73158L7.79191 1.41103L9.22502 0.00848961L17.1081 7.72348L9.22502 15.4385L7.79191 14.0359L13.2284 8.71538H0.891907L0.891907 6.73158H13.2284Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="savings-area__items grid--col-5 grid">
+          <div class="savings-area__item">
+            <div
+              class="savings-area__item-wrapper savings-area__item-wrapper--1"
+            >
+              <img
+                src="./images/twemoji_laptop.png"
+                class="savings-area__item-icon"
+                alt="savings-icon"
+              />
+            </div>
+            <h3 class="savings-area__item-title">New Laptop</h3>
+            <p class="savings-area__item-price">400$</p>
+          </div>
+          <div class="savings-area__item">
+            <div
+              class="savings-area__item-wrapper savings-area__item-wrapper--2"
+            >
+              <img
+                src="./images/twemoji_bicycle.png"
+                class="savings-area__item-icon"
+                alt="savings-icon"
+              />
+            </div>
+            <h3 class="savings-area__item-title">New Laptop</h3>
+            <p class="savings-area__item-price">400$</p>
+          </div>
+          <div class="savings-area__item">
+            <div
+              class="savings-area__item-wrapper savings-area__item-wrapper--3"
+            >
+              <img
+                src="./images/twemoji_airplane.png"
+                class="savings-area__item-icon"
+                alt="savings-icon"
+              />
+            </div>
+            <h3 class="savings-area__item-title">New Laptop</h3>
+            <p class="savings-area__item-price">400$</p>
+          </div>
+          <div class="savings-area__item">
+            <div
+              class="savings-area__item-wrapper savings-area__item-wrapper--4"
+            >
+              <img
+                src="./images/twemoji_camera-with-flash.png"
+                class="savings-area__item-icon"
+                alt="savings-icon"
+              />
+            </div>
+            <h3 class="savings-area__item-title">New Laptop</h3>
+            <p class="savings-area__item-price">400$</p>
+          </div>
+          <div class="savings-area__item">
+            <div
+              class="savings-area__item-wrapper savings-area__item-wrapper--5"
+            >
+              <img
+                src="./images/ri_add-fill.png"
+                class="savings-area__item-icon"
+                alt="savings-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Savings section end -->
+
+    <!-- Notification section start -->
+    <div class="notification-area">
+      <div class="wrapper grid--col-2 grid__gap-4">
+        <div class="notification-area__left-col">
+          <p class="notification-area__subtitle">Notifications</p>
+          <h3 class="notification-area__title">Stay notified</h3>
+          <p class="notification-area__desc">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+
+          <div class="notification-area__points">
+            <div class="notification-area__point">
+              <svg
+                class="notification-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.644043"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M11.5 16.0232L18.394 9.12842L19.4553 10.1889L11.5 18.1442L6.72701 13.3712L7.78751 12.3107L11.5 16.0232Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+
+              <p class="notification-area__point-desc">Malesuada Ipsum</p>
+            </div>
+
+            <div class="notification-area__point">
+              <svg
+                class="notification-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.644043"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M11.5 16.0232L18.394 9.12842L19.4553 10.1889L11.5 18.1442L6.72701 13.3712L7.78751 12.3107L11.5 16.0232Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+
+              <p class="notification-area__point-desc">Vestibulum</p>
+            </div>
+            <div class="notification-area__point">
+              <svg
+                class="notification-area__point-icon"
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  y="0.644043"
+                  width="26"
+                  height="26"
+                  rx="13"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M11.5 16.0232L18.394 9.12842L19.4553 10.1889L11.5 18.1442L6.72701 13.3712L7.78751 12.3107L11.5 16.0232Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+
+              <p class="notification-area__point-desc">Parturient Lorem</p>
+            </div>
+          </div>
+
+          <a href="#" class="notification-area__cta">
+            <span>Compare Cards</span>
+            <svg
+              width="18"
+              height="17"
+              viewBox="0 0 18 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.2284 7.65199L7.79189 2.33144L9.225 0.9289L17.1081 8.64389L9.225 16.3589L7.79189 14.9563L13.2284 9.63579H0.891893L0.891893 7.65199H13.2284Z"
+                fill="#5BB5A2"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="notification-area__left-col">
+          <div class="notification-area__notifications">
+            <img
+              src="./images/notification/notification1.png"
+              alt="notification"
+            />
+            <img
+              src="./images/notification/notification2.png"
+              alt="notification"
+            />
+            <img
+              src="./images/notification/notification3.png"
+              alt="notification"
+            />
+            <img
+              src="./images/notification/notification4.png"
+              alt="notification"
+            />
+            <img
+              src="./images/notification/notification5.png"
+              alt="notification"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Notification section end -->
+
+    <!-- Integration section start -->
+    <div class="integration-area">
+      <div class="wrapper">
+        <div class="integration-area__logos">
+          <div class="integration-area__logos-row">
+            <img src="./images/logos/logo1.png" alt="company logo" />
+            <img src="./images/logos/logo2.png" alt="company logo" />
+            <img src="./images/logos/logo3.png" alt="company logo" />
+            <img src="./images/logos/logo4.png" alt="company logo" />
+          </div>
+          <div class="integration-area__logos-row">
+            <img src="./images/logos/logo5.png" alt="company logo" />
+            <img src="./images/logos/logo6.png" alt="company logo" />
+            <img src="./images/logos/logo7.png" alt="company logo" />
+            <img src="./images/logos/logo8.png" alt="company logo" />
+            <img src="./images/logos/logo9.png" alt="company logo" />
+          </div>
+        </div>
+
+        <div class="integration-area__contents grid--col-2">
+          <div>
+            <p class="integration-area__subtitle">Tools</p>
+            <h3 class="integration-area__title">
+              Seemless <br />
+              integration
+            </h3>
+
+            <p class="integration-area__desc">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              <br />
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div class="integration-area__points">
+            <div class="integration-area__point">
+              <svg
+                class="integration-area__point-icon"
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="0.653381"
+                  y="0.563965"
+                  width="40"
+                  height="40"
+                  rx="20"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M18.8201 23.4718L27.2461 15.0449L28.5431 16.3411L18.8201 26.0642L12.9864 20.2305L14.2826 18.9343L18.8201 23.4718Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+              <p class="integration-area__point-label">
+                Secure and encrypted integration
+              </p>
+            </div>
+            <div class="integration-area__point">
+              <svg
+                class="integration-area__point-icon"
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="0.653381"
+                  y="0.563965"
+                  width="40"
+                  height="40"
+                  rx="20"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M18.8201 23.4718L27.2461 15.0449L28.5431 16.3411L18.8201 26.0642L12.9864 20.2305L14.2826 18.9343L18.8201 23.4718Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+              <p class="integration-area__point-label">Fully API interface</p>
+            </div>
+            <div class="integration-area__point">
+              <svg
+                class="integration-area__point-icon"
+                width="41"
+                height="41"
+                viewBox="0 0 41 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="0.653381"
+                  y="0.563965"
+                  width="40"
+                  height="40"
+                  rx="20"
+                  fill="#E8F2EE"
+                />
+                <path
+                  d="M18.8201 23.4718L27.2461 15.0449L28.5431 16.3411L18.8201 26.0642L12.9864 20.2305L14.2826 18.9343L18.8201 23.4718Z"
+                  fill="#5BB5A2"
+                />
+              </svg>
+              <p class="integration-area__point-label">Payments worldwide</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Integration section end -->
+    <!-- Footer start -->
+    <footer class="footer-area">
+      <div class="wrapper footer-area__top grid">
+        <div class="footer-area__logo grid__col--4">
+          <a href="#">banquee.</a>
+        </div>
+        <div class="footer-area__widgets grid__col--8 grid--col-4">
+          <div class="footer-area__widget">
+            <h3 class="footer-area__widget-title">About</h3>
+            <ul class="footer-area__widget-list">
+              <li class="footer-area__widget-item">
+                <a href="#">Features</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Pricing</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-area__widget">
+            <h3 class="footer-area__widget-title">Blog</h3>
+            <ul class="footer-area__widget-list">
+              <li class="footer-area__widget-item">
+                <a href="#">Products</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Technology</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Crypto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-area__widget">
+            <h3 class="footer-area__widget-title">Webflow</h3>
+            <ul class="footer-area__widget-list">
+              <li class="footer-area__widget-item">
+                <a href="#">Styleguide</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Licensing</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Changelog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-area__widget">
+            <h3 class="footer-area__widget-title">Social Media</h3>
+            <ul class="footer-area__widget-list">
+              <li class="footer-area__widget-item">
+                <a href="#">Twitter</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Facebook</a>
+              </li>
+              <li class="footer-area__widget-item">
+                <a href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper footer-area__bottom">
+        <p class="footer-area__bottom-copyright">
+          &copy; Made by <a href="#">Pawel Gola</a> - Powered by
+          <a href="#">Webflow</a>
+        </p>
+        <nav class="footer-area__bottom-nav">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </nav>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+</html>
