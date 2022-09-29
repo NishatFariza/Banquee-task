@@ -4,11 +4,27 @@
   &__title {
     @include font-dm-sans(5rem, 1.1em);
     margin: 1rem 0;
+    @media all and (max-width: 768px) {
+      @include font-dm-sans(3rem, 1.1em);
+    }
   }
 
   &__mobile {
     text-align: center;
     max-width: 23.75rem;
+
+    &--mobile-only {
+      display: none;
+      @media all and (max-width: 768px) {
+        display: block;
+        max-width: 85%;
+      }
+    }
+
+    @media all and (max-width: 768px) {
+      display: none;
+      max-width: 75%;
+    }
   }
 
   //   boxes
@@ -17,6 +33,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+
+    @media all and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__box {

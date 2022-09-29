@@ -7,10 +7,18 @@
     @include font-dm-sans(4rem, 1.1em);
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+
+    @media all and (max-width: 768px) {
+      @include font-dm-sans(2rem, 1.1em);
+    }
   }
   &__desc {
     font-size: 1.125rem;
     margin-bottom: 2rem;
+    @media all and (max-width: 768px) {
+      // @include font-dm-sans(1rem, 1.1em);
+      font-size: 1rem;
+    }
   }
 
   &__cta {

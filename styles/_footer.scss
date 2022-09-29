@@ -1,6 +1,12 @@
 .footer-area {
   padding: 6.0625rem 0 3.125rem;
   border-top: 2px solid #e8e8e8;
+  @media all and (max-width: 768px) {
+    $vertical-padding: 2rem;
+    padding-top: $vertical-padding;
+    padding-bottom: $vertical-padding;
+  }
+
   &__logo {
     a {
       @include font-dm-sans(2rem, 1em);
@@ -42,6 +48,11 @@
     justify-content: space-between;
     font-size: 0.875rem;
     padding-top: 1rem;
+
+    @media all and (max-width: 768px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 
   &__bottom-copyright {

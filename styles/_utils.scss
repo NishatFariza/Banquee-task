@@ -1,18 +1,33 @@
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
+
+  @media all and (max-width: 768px) {
+    padding: 0 1rem;
+  }
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
+
+  @media all and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 @for $i from 2 to 13 {
   .grid--col-#{$i} {
     display: grid;
     grid-template-columns: repeat($i, 1fr);
+
+    @media all and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 

@@ -8,6 +8,17 @@
   &__title {
     @include font-dm-sans(4rem, 1.1em);
     margin: 1rem 0;
+
+    @media all and (max-width: 768px) {
+      @include font-dm-sans(2rem, 1.1em);
+    }
+  }
+
+  &__contents {
+    @media all and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   &__desc {
